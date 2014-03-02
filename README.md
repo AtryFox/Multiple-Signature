@@ -27,7 +27,7 @@ In the config, you can add cases using the thread id, the path of the image, a b
 `addCase($tid, $img, $urlb, $url);`
 * `$tid`: The thread id. How to get the thrad id: `http://epic-board.tld/showthread.php?tid=1337` 1337 is the thread id.
 * `$img`: The filename of the image. The image must be in the *images* folder!
-* `$urlb`: Says if the image is linked or not. (boolen: true/false)
+* `$urlb`: Says if the image is linked or not. (boolean: true/false)
 * `$url`: The url, if the image is linked.
 
 #### Special thanks to [@Raptilicus](https://twitter.com/raptilicus)! ####
