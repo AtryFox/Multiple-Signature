@@ -2,10 +2,8 @@
 	error_reporting(0);
 	$tid = 0;
 	if(isset($_SERVER["HTTP_REFERER"])) {
-		if(strpos($_SERVER["HTTP_REFERER"], "bronies.de") !== false) {
-			parse_str(parse_url($_SERVER["HTTP_REFERER"], PHP_URL_QUERY), $args);
-			$tid = $args['tid'];
-		}
+		parse_str(parse_url($_SERVER["HTTP_REFERER"], PHP_URL_QUERY), $args);
+		$tid = $args['tid'];
 	}
 	
 	$file = "";
