@@ -26,13 +26,17 @@ The script knows in which thread you are. PHP gets this information of the HTTP_
 In the config, you can add cases using the thread id, the path of the image, a boolean which says whether the image is linked or not and the url, if the image is linked.
 `addCase($tid, $img, $urlb, $url);`
 
+
 |Parameter|Description|
 |---------|-----------|
-|`$tid`   | The thread id. How to get the thrad id: `http://epic-board.tld/showthread.php?tid=1337` 1337 is the thread id.|
+|`$tid`   | The thread id. (`http://epic-board.tld/showthread.php?tid=1337` :arrow_right: `1337` is the thread id.)|
 |`$img`   | The filename of the image. The image must be in the *images* folder!|
 |`$urlb`  | Says if the image is linked or not. (boolen: true/false)|
 |`$url`   | The url, if the image is linked.|
 
+
+### Known bugs ###
+- The usage of links for special cases is not working (no HTTP_REFERER)
 
 #### Special thanks to [@Raptilicus](https://twitter.com/raptilicus)! ####
 He helped me a lot! Thanks Rapti! :3
