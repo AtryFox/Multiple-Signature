@@ -1,4 +1,3 @@
 <?php
-	$nolink = true;
-	include("../index.php");
-?>
+$nolink = true;
+include("../index.php");

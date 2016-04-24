@@ -13,4 +13,3 @@ $deufaltUrlb = true; // If true: $defaultImg is linked to the $defaultUrl
 // $url: If $urlb is true, the image is linked to this url (string).
 
 addCase(1, "example.png", true, "https://google.com/");
-?>
