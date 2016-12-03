@@ -3,7 +3,7 @@
 /* MAIN CONFIG */
 $defaultImg = "default.png"; // Default image if no case is true
 $defaultUrl = "https://your-website.tld/"; // Default url if $urlb is true but $url is not set
-$deufaltUrlb = true; // If true: $defaultImg is linked to the $defaultUrl
+$defaultUrlb = true; // If true: $defaultImg is linked to the $defaultUrl
 
 /* CASES */
 // addCase($tid, $img, $urlb, $url);
